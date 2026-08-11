@@ -2,7 +2,7 @@ import streamlit as st
 import tiktoken
 import os
 from groq import Groq
-st.title(”Token Counter + Prompt Compressor”)
+st.title("Token Counter + Prompt Compressor”)
 system_prompt = st.text_area(”System prompt”, height=150)
 conversation_history = st.text_area(”Conversation history”, height=100)
 new_message = st.text_area(”New message”, height=80)
